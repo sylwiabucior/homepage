@@ -10,29 +10,40 @@
 </head>
 <body>
   <main>
-    <header>
+    <header class="header">
       <nav class="navigation">
         <a class="navigation__link" href="index.html">Strona główna</a>
         <a class="navigation__link" href="second.html">Druga strona</a>
         <a class="navigation__link" href="third.html">Trzecia strona</a>
       </nav>
-      <h1>To jest nagłówek pierwszego poziomu</h1>
     </header>
-    <article>
-		  <h2 class="article__header">To jest nagłówek drugiego poziomu</h2>
-      <p class="article__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut expedita eius cupiditate, delectus nostrum voluptates modi saepe aliquid asperiores. Rerum iure fugiat dolor facere ea a soluta tempora reprehenderit saepe, voluptatum odit quas qnemo eos explicabo libero officia necessitatibus consequatur animi aperiam quae.</p>
-      <p class="article__paragraph">Tutaj umieszcze link do strony wirtualnej polski <a class="article__paragraph--link" href="http://wirtualnapolska.pl" target="_blank">Przejdź na stronę WP</a></p>
-      <img class="article__image" src="carnival.jpg" alt="zdjecie karnawału">
-    </article>
-    <article>
-      <h2 class="article__header">GIT</h2>
-      <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, possimus illum magnam inventore fugiat maiores ex. Tempore officia quibusdam aperiam?</p>
-      <p class="article__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos magnam ut fugit doloribus molestiae voluptates eius nostrum, nobis saepe ex invent quia quaerat deleniti eveniet hic ab ea placeat assumenda distinctio beatae modi non ad reprehenderit at veritatis, eligendi labore delectus quae excepturi <a class="article__paragraph--link" href="#link">KLIKNIJ TUTAJ</a>sapiente accusamus. Error, magnam aut, officia pariatur totam nam fugit quae aliquid hic aliquam porro perferendis tempore ducimus, rerum odit? Voluptatum cupiditate aperiam et debitis suscipit expedita magni sint pariatur nisi nesciunt doloremque quos unde ab odio neq Maxime, doloremque vitae quas ipsum placeat quidem nobis temporibus recusandae eligendi laudantium earum nisi sapiente. Accusamus nam adipisci, aliquam culpa ipsam, molestiae cum, facere molestias soluta optio ut itaque dignissimos amet. Animi ea dolorum sit non odit ipsa harum eum laboriosam quam, laudantium similique est amet reiciendis dolorem?</p>
-      <p id="link">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus minima deleniti asperiores, voluptatem facere porro amet velit iste doloribus quas eveniet labore architecto quam corporis minus quia eligendi animi, id, libero qequi est suscipit autem quos asperiores ab laudantium eveniet assumenda sapiente nulla accusamus soluta natus quis provident ipsam voluptas, tempora fugit rem. Dolorum commodi, consectetur voluptas mollitia rem obcaecati laudantium hic porro sunt voluptatem iusto non amet eius cum, quia quaerat natus quidem maiores dignissimos. Voluptatem accusantium voluptatibus nesciunt non sed. Minima sapiente molestias ad.</p>
-    </article>
+    <main>
+      <header class="page-header" id="top">
+        <h1 class="page-header__heading page-header__heading--js">To jest nagłówek pierwszego poziomu</h1>
+      </header>
+      <section class="section">
+		    <h2 class="section__header">To jest nagłówek drugiego poziomu</h2>
+        <p class="section__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut expedita eius cupiditate, delectus nostrum voluptates modi saepe aliquid asperiores. Rerum iure fugiat dolor facere ea a soluta tempora reprehenderit saepe, voluptatum odit quas qnemo eos explicabo libero officia necessitatibus consequatur animi aperiam quae.</p>
+        <p class="section__text">Tutaj umieszcze link do strony wirtualnej polski <a class="section__text--link" href="http://wirtualnapolska.pl" target="_blank">Przejdź na stronę WP</a></p>
+        <img class="section__image" src="carnival.jpg" alt="zdjecie karnawału">
+        <p class="section__text--js"></p>
+      </section>
+      <section class="section">
+        <h2 class="section__header">GIT</h2>
+        <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, possimus illum magnam inventore fugiat maiores ex. Tempore officia quibusdam aperiam?</p>
+        <p class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos magnam ut fugit doloribus molestiae voluptates eius nostrum, nobis saepe ex invent quia quaerat deleniti eveniet hic ab ea placeat assumenda distinctio beatae modi non ad reprehenderit at veritatis, eligendi labore delectus quae excepturi <a class="section__text--link" href="#link">KLIKNIJ TUTAJ</a>sapiente accusamus. Error, magnam aut, officia pariatur totam nam fugit quae aliquid hic aliquam porro perferendis tempore ducimus, rerum odit? Voluptatum cupiditate aperiam et debitis suscipit expedita magni sint pariatur nisi  non odit ipsa harum eum laboriosam quam, laudantium similique est amet reiciendis dolorem?</p>
+        <p class="section__text" id="link">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus minima deleniti asperiores, voluptatem facere porro amet velit iste doloribus quas eveniet labore architecto quam corporis minus quia eligendcaecati laudantium hic porro sunt voluptatem iusto non amet eius cum, quia quaerat natus quidem maiores dignissimos. Voluptatem accusantium voluptatibus nesciunt non sed. Minima sapiente molestias ad.</p>
+      </section>
+      <section class="section">
+        <h2 class="section__header section__header--special"> Nazywam się Sylwia Bucior</h2>
+        <article class="my-article">
+          <h3 class="my-article__header">HTML, CSS, JS</h3>
+          <p class="my-article__text">Staram się nauczyć tworzyć strony internetowe za pomocą HTML, CSS i JS. Trzymam kciuki sama za siebie.</p>
+        </article>
+      </section>
     </main>
-    <footer>
-      <p>Tu kiedyś będzie stopka <a href="#top">Do góry</a></p>
+    <footer class="footer">
+      <p class="footer__text">Tu kiedyś będzie stopka <a href="#top">Do góry</a></p>
     </footer>
     <script defer src="main.js"></script>
  
